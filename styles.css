@@ -15,7 +15,7 @@ body {
   min-width: 389px;
   backdrop-filter: blur(6px);
   background: url(./511284-PI52SA-764.jpg) no-repeat;
-  overflow: hidden;
+  overflow: auto;
 }
 
 #checker {
