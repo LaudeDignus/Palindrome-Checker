@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/3e2adae687.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="checker">
+        <div id="head">
+            <h1>Palindrome Checker <sup><span id="show-rule" >
+                <i class="fa-solid fa-lightbulb fa-1x"></i>
+            </span></sup></h1>
+           
+        </div>
+        <div id="get-answer">
+            <input type="text" placeholder="Enter the word" value="" id="word" />
+            <button id="btn-checker" type="button" maxlenght="20">Check</button>
+            
+            <div id="result"></div>
+        </div>
+    </section>
+    
+    <section id="rule">
+        <span id="hide-rule">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </span>
+        <p>
+        Un palindrome est une séquence de caractères (mot, phrase, ou nombre)
+        qui se lit de la même manière dans les deux sens, c'est-à-dire de gauche
+        à droite et de droite à gauche. Pour qu’une séquence soit considérée
+        comme un palindrome, elle doit être identique lorsqu'elle est inversée.
+        Les espaces, la ponctuation et les majuscules/minuscules ne sont pas
+        pris en compte dans cette vérification. Par exemple, des mots comme
+        "radar" ou "level" sont des palindromes car leur lecture est identique
+        dans les deux directions. De même, des phrases comme "A man, a plan, a
+        canal, Panama!" ou des nombres comme 12321 respectent cette règle une
+        fois nettoyés des éléments non pertinents comme les espaces et la casse.
+      </p>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
